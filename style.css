@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: #ffff;
+}
+
+.navbar .nav-link {
+    color: black;
+    font-size: 1.2rem;
+}
+
+@media screen and(min-width:768px) {
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 2rem;
+    }
+
+    .navbar .nav-link {
+        padding: 0.5rem 2rem;
+    }
+
+    .hero div,
+    .about,
+    .contact {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container-lg {
+        max-width: 80%;
+    }
+}

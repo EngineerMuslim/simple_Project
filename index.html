@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- <h1 class="fs-1 fw-bold text-dark mb-4 text-center">Family</h1>
+  <button class="btn btn-primary px-5 py-3 bold rounded-pill text-center"> Submit</button>  
+    <div class="row g-3">
+        <div class="col-3">
+            <h2 class="bg-primary text-white text-center px-3 mt-3 rounded">1</h2>
+        </div>
+
+        <div class="col-3">
+            <h2 class="bg-primary text-white text-center px-3 mt-3 rounded">2</h2>
+        </div>
+
+        <div class="col-3">
+            <h2 class="bg-primary text-white text-center px-3 mt-3 rounded">3</h2>
+        </div>
+
+        <div class="col-3">
+            <h2 class="bg-primary text-white text-center px-3 mt-3 rounded">4</h2>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-4">
+
+            <h2 class="bg-warning text-white text-center px-3 mt-3 rounded">1</h2>
+        </div>
+
+        <div class="col-4">
+            <h2 class="bg-warning text-white text-center px-3 mt-3 rounded">2</h2>
+        </div>
+
+        <div class="col-4">
+            <h2 class="bg-warning text-white text-center px-3 mt-3 rounded">3</h2>
+        </div>
+
+    </div>
+    <div class="row g-3">
+        <div class="col-6">
+
+            <h2 class="bg-success  text-white text-center px-3 mt-3 rounded">1</h2>
+        </div>
+
+        <div class="col-6">
+            <h2 class="bg-success  text-white text-center px-3 mt-3 rounded">2</h2>
+        </div>
+
+    </div>
+    <div class="col-12">
+
+        <h2 class="bg-danger text-white text-center px-3 mt-3 rounded">12</h2>
+    </div> -->
+    <div class="container-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand  fw-bold d-md-none" href="#">Donuts</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#bestSelling">Best Selling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <a class="navbar-brand d-none d-md-block" href="#Donuts">Donuts</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallary">Gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="Donuts" class="hero text-center position-relative">
+            <img src="./images/WhatsApp Image 2026-02-01 at 1.19.36 PM.jpeg" alt="Donuts" class="img-fluid">
+            <div class="position-absolute top-50 start-0 end-0 translate-middle-y mx-auto">
+                <h2 pb-3>Delicious Donuts, Just a Click Away!</h2>
+                <a class="btn btn-dark rounded-0 px-3 py-2" href="#">Order Now</a>
+            </div>
+        </section>
+        <section id="bestSelling" class="text-center py-5">
+            <h2>Best Selling</h2>
+            <p>Our donuts are freshly baked every day with love and the finest ingredients!</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="./images/R.jfif" alt="Donuts" class="img-fluid">
+                    <h3>Nutella Donuts</h3>
+                    <p>$2.00</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="./images/Homer-Simpson-Donuts-2-585x878.webp" alt="Donuts" class="img-fluid">
+                    <h3>Strawberry Donuts</h3>
+                    <p>$2.00</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="./images/Chocolate-Donuts.jpg" alt="Donuts" class="img-fluid">
+                    <h3>Chocolate Donuts</h3>
+                    <p>$2.00</p>
+                </div>
+            </div>
+            <a href="#" class="btn btn-outline-dark rounded-0 px-3 py-2 btn-lg">All Donuts</a>
+        </section>
+        <section id="about" class="text-center bg-danger-subtle">
+            <div class="about py-5 px-4 mx-auto">
+                <h2>About Us</h2>
+                <p>“We make the freshest donuts every day with love and the finest ingredients ”</p>
+                <a href="#" class="btn btn-dark px-3 py-2 rounded-0">Know More</a>
+            </div>
+        </section>
+        <section id="gallary" class="text-center py-5">
+            <h2>Our Donuts Gallery</h2>
+            <div class="row row-cols-2 row-cols-sm-3 g-2 pt-2">
+                <div class="col">
+                    <img src="./images/Yeast-donut.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/Glazed-donut.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/Long-John-.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/Buttemilk-donut.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/Chocolate-sprinkle-donut.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/Jelly-donut.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="text-center bg-light py-5">
+            <div class="contact mx-auto">
+                <h2 class="text-uppercase fw-bold">Join Our Mailing List</h2>
+                <p>We’d love to hear from you! Send us your questions, feedback, or just say hello.</p>
+                <div class="input-group input-group-lg mb-3 w-75 mx-auto">
+                    <input type="text" class="form-control rounded-0 shadow-none" placeholder="Email Address"
+                        aria-label="Recipient’s username" aria-describedby="basic-addon2">
+                    <span class="btn btn-dark rounded-0" id="basic-addon2"><i class="bi bi-send-fill"></i></span>
+                </div>
+                <div class="social-media py-3">
+                    <a href="#" class="fs-4 px-3"><i class="bi bi-facebook text-dark"></i></a>
+                    <a href="#" class="fs-4 px-3"><i class="bi bi-youtube text-dark"></i></a>
+                    <a href="#" class="fs-4 px-3"><i class="bi bi-linkedin text-dark"></i></a>
+                    <a href="#" class="fs-4 px-3"><i class="bi bi-pinterest text-dark"></i></a>
+                    <a href="#" class="fs-4 px-3"><i class="bi bi-twitter text-dark"></i></a>
+                </div>
+                <small>Copyright &copy; Yummy Donuts 2026.</small>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
