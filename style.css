@@ -2,7 +2,9 @@
 .navbar {
     background-color: #ffff;
 }
-
+h1{
+    font-size:100px ;
+}
 .navbar .nav-link {
     color: black;
     font-size: 1.2rem;
